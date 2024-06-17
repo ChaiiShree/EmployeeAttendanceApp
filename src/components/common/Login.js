@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-import { login } from '../../services/api';
+import { login } from '../../services/auth'; // Corrected import
 
 const Login = ({ navigation, role }) => {
     const [department, setDepartment] = useState('');
